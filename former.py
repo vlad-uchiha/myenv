@@ -48,7 +48,8 @@ def getData(startTime, endTime, cities_coords, maxradiuskm, minmagnitude):
                         # Создаем словарь для каждого землетрясения
                         earthquake_dict = {
                             "City": city_name,
-                            "Place": feature['properties']['place'],
+                            "Continent": cities_coords[3],
+                            "Place": feature['properties']['place'],                            
                             "Date": str(calculateTime(timeKey))[0:10],
                             "Time": str(calculateTime(timeKey))[11:19],
                             "Magnitude": feature['properties']['mag']
@@ -58,6 +59,7 @@ def getData(startTime, endTime, cities_coords, maxradiuskm, minmagnitude):
                     # Добавляем данные с NULL для городов без землетрясений
                     earthquake_data.append({
                         "City": city_name,
+                        "Continent": "NULL",
                         "Place": "NULL",
                         "Date": "NULL",
                         "Time": "NULL",
@@ -73,9 +75,10 @@ def getData(startTime, endTime, cities_coords, maxradiuskm, minmagnitude):
 # Получаем данные о землетрясениях
 earthquake_results = getData(startTime, endTime, cities_coords, maxRadiusInKm, minMagnitude)
 
-# Сохраняем данные в CSV
+    
+#Сохраняем данные в CSV
 with open("earthquake_data.csv", mode="w", newline="", encoding="utf-8") as file:
-    writer = csv.DictWriter(file, fieldnames=["City", "Place", "Date", "Time", "Magnitude"])
+    writer = csv.DictWriter(file, fieldnames=["City", "Continent", "Place", "Date", "Time", "Magnitude"])
     writer.writeheader()
     writer.writerows(earthquake_results)
 

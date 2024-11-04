@@ -58,10 +58,9 @@ for i, record in enumerate(city_coordinates):
         record["Continent"] = "Europe"
     elif 39 <= i < 49:
         record["Continent"] = "Asia"
-for record in city_coordinates:
-    print(record)
-# Сохранение данных в JSON для удобного чтения
-# with open("cities_coordinates.json", "w", encoding="utf-8") as file:
-#     json.dump(city_coordinates, file, ensure_ascii=False, indent=4)
+
+#Сохранение данных в JSON для удобного чтения
+with open("cities_coordinates.json", "w", encoding="utf-8") as file:
+    json.dump(city_coordinates, file, ensure_ascii=False, indent=4)
 
 print("Координаты успешно сохранены в файл cities_coordinates.json")

@@ -33,12 +33,11 @@ def get_city_coordinates(city_name):
 
 # Список городов для парсинга
 cities = [
-    "Washington, D.C.", "Mexico City", "New York City", "Toronto", "Havana", "Santo Domingo", "San Salvador",
-    "San Antonio", "Dallas", "Montreal", "Lagos", "Kinshasa", "Cairo", "Luanda", "Abidjan", "Alexandria",
-    "Dar es Salaam", "Johannesburg", "Giza", "Nairobi", "Sao Paulo", "Lima", "Bogota", "Rio de Janeiro",
-    "Santiago", "Caracas", "Buenos Aires", "Brasília", "Fortaleza", "Istanbul", "Moscow", "London",
-    "Saint Petersburg", "Berlin", "Madrid", "Kyiv", "Rome", "Baku", "Paris", "Guangzhou", "Jakarta",
-    "Mumbai", "Delhi", "Tokyo", "Shanghai", "Manila", "Seoul", "Dhaka", "Beijing"
+    "Washington, D.C.", "Mexico City", "New York City", "Toronto", "Havana", "Santo Domingo", "San Salvador", "San Antonio", "Dallas", "Montreal", 
+    "Lagos", "Kinshasa", "Cairo", "Luanda", "Abidjan", "Alexandria", "Dar es Salaam", "Johannesburg", "Giza", "Nairobi",
+    "Sao Paulo", "Lima", "Bogota", "Rio de Janeiro", "Santiago", "Caracas", "Buenos Aires", "Brasília", "Fortaleza", 
+    "Istanbul", "Moscow", "London","Saint Petersburg", "Berlin", "Madrid", "Kyiv", "Rome", "Baku", "Paris",
+    "Guangzhou", "Jakarta", "Mumbai", "Delhi", "Tokyo", "Shanghai", "Manila", "Seoul", "Dhaka", "Beijing"
 ]
 
 # Парсинг координат для каждого города
@@ -48,8 +47,21 @@ for city in cities:
     if coordinates:
         city_coordinates.append(coordinates)
 
+for i, record in enumerate(city_coordinates):
+    if 0 <= i < 10:
+        record['Continent'] = "North America"
+    elif 10 <= i < 20:
+        record['Continent'] = "Africa"
+    elif 20 <= i < 29:
+        record['Continent'] = "South America"
+    elif 29 <= i < 39:
+        record["Continent"] = "Europe"
+    elif 39 <= i < 49:
+        record["Continent"] = "Asia"
+for record in city_coordinates:
+    print(record)
 # Сохранение данных в JSON для удобного чтения
-with open("cities_coordinates.json", "w", encoding="utf-8") as file:
-    json.dump(city_coordinates, file, ensure_ascii=False, indent=4)
+# with open("cities_coordinates.json", "w", encoding="utf-8") as file:
+#     json.dump(city_coordinates, file, ensure_ascii=False, indent=4)
 
 print("Координаты успешно сохранены в файл cities_coordinates.json")

@@ -1,0 +1,247 @@
+[
+    {
+        "city": "Washington, D.C.",
+        "latitude": 38.9,
+        "longitude": -77.02
+    },
+    {
+        "city": "Mexico City",
+        "latitude": 19.43,
+        "longitude": -99.13
+    },
+    {
+        "city": "New York City",
+        "latitude": 40.71,
+        "longitude": -74.01
+    },
+    {
+        "city": "Toronto",
+        "latitude": 43.74,
+        "longitude": -79.37
+    },
+    {
+        "city": "Havana",
+        "latitude": 23.14,
+        "longitude": -82.36
+    },
+    {
+        "city": "Santo Domingo",
+        "latitude": 18.47,
+        "longitude": -69.95
+    },
+    {
+        "city": "San Salvador",
+        "latitude": 13.7,
+        "longitude": -89.19
+    },
+    {
+        "city": "San Antonio",
+        "latitude": 29.45,
+        "longitude": -98.56
+    },
+    {
+        "city": "Dallas",
+        "latitude": 32.78,
+        "longitude": -96.81
+    },
+    {
+        "city": "Montreal",
+        "latitude": 45.51,
+        "longitude": -73.55
+    },
+    {
+        "city": "Lagos",
+        "latitude": 6.46,
+        "longitude": 3.38
+    },
+    {
+        "city": "Kinshasa",
+        "latitude": -4.32,
+        "longitude": 15.31
+    },
+    {
+        "city": "Cairo",
+        "latitude": 30.04,
+        "longitude": 31.24
+    },
+    {
+        "city": "Luanda",
+        "latitude": -8.84,
+        "longitude": 13.23
+    },
+    {
+        "city": "Abidjan",
+        "latitude": 5.32,
+        "longitude": -4.03
+    },
+    {
+        "city": "Alexandria",
+        "latitude": 31.2,
+        "longitude": 29.89
+    },
+    {
+        "city": "Dar es Salaam",
+        "latitude": -6.82,
+        "longitude": 39.28
+    },
+    {
+        "city": "Johannesburg",
+        "latitude": -26.2,
+        "longitude": 28.05
+    },
+    {
+        "city": "Giza",
+        "latitude": 29.99,
+        "longitude": 31.21
+    },
+    {
+        "city": "Nairobi",
+        "latitude": -1.29,
+        "longitude": 36.82
+    },
+    {
+        "city": "Sao Paulo",
+        "latitude": -23.55,
+        "longitude": -46.63
+    },
+    {
+        "city": "Lima",
+        "latitude": -12.06,
+        "longitude": -77.04
+    },
+    {
+        "city": "Bogota",
+        "latitude": 4.71,
+        "longitude": -74.07
+    },
+    {
+        "city": "Rio de Janeiro",
+        "latitude": -22.91,
+        "longitude": -43.21
+    },
+    {
+        "city": "Santiago",
+        "latitude": -33.44,
+        "longitude": -70.65
+    },
+    {
+        "city": "Caracas",
+        "latitude": 10.48,
+        "longitude": -66.9
+    },
+    {
+        "city": "Buenos Aires",
+        "latitude": -34.6,
+        "longitude": -58.38
+    },
+    {
+        "city": "Brasília",
+        "latitude": -15.79,
+        "longitude": -47.88
+    },
+    {
+        "city": "Fortaleza",
+        "latitude": -3.73,
+        "longitude": -38.53
+    },
+    {
+        "city": "Istanbul",
+        "latitude": 41.01,
+        "longitude": 28.95
+    },
+    {
+        "city": "Moscow",
+        "latitude": 55.75,
+        "longitude": 37.62
+    },
+    {
+        "city": "London",
+        "latitude": 51.5,
+        "longitude": -0.13
+    },
+    {
+        "city": "Saint Petersburg",
+        "latitude": 59.94,
+        "longitude": 30.31
+    },
+    {
+        "city": "Berlin",
+        "latitude": 52.52,
+        "longitude": 13.4
+    },
+    {
+        "city": "Madrid",
+        "latitude": 40.42,
+        "longitude": -3.7
+    },
+    {
+        "city": "Kyiv",
+        "latitude": 50.45,
+        "longitude": 30.52
+    },
+    {
+        "city": "Rome",
+        "latitude": 41.89,
+        "longitude": 12.48
+    },
+    {
+        "city": "Baku",
+        "latitude": 40.4,
+        "longitude": 49.88
+    },
+    {
+        "city": "Paris",
+        "latitude": 48.86,
+        "longitude": 2.35
+    },
+    {
+        "city": "Guangzhou",
+        "latitude": 23.13,
+        "longitude": 113.26
+    },
+    {
+        "city": "Jakarta",
+        "latitude": -6.17,
+        "longitude": 106.83
+    },
+    {
+        "city": "Mumbai",
+        "latitude": 19.08,
+        "longitude": 72.88
+    },
+    {
+        "city": "Delhi",
+        "latitude": 28.61,
+        "longitude": 77.23
+    },
+    {
+        "city": "Tokyo",
+        "latitude": 35.69,
+        "longitude": 139.69
+    },
+    {
+        "city": "Shanghai",
+        "latitude": 31.23,
+        "longitude": 121.47
+    },
+    {
+        "city": "Manila",
+        "latitude": 14.6,
+        "longitude": 120.98
+    },
+    {
+        "city": "Seoul",
+        "latitude": 37.56,
+        "longitude": 126.99
+    },
+    {
+        "city": "Dhaka",
+        "latitude": 23.8,
+        "longitude": 90.42
+    },
+    {
+        "city": "Beijing",
+        "latitude": 39.91,
+        "longitude": 116.4
+    }
+]

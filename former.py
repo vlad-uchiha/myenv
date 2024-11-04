@@ -27,6 +27,7 @@ def getData(startTime, endTime, cities_coords, maxradiuskm, minmagnitude):
         latitude = city['latitude']
         longitude = city['longitude']
         city_name = city['city']
+        continent = city['Continent']
 
         response = requests.get(url, params={
             "format": "geojson",
@@ -48,7 +49,7 @@ def getData(startTime, endTime, cities_coords, maxradiuskm, minmagnitude):
                         # Создаем словарь для каждого землетрясения
                         earthquake_dict = {
                             "City": city_name,
-                            "Continent": cities_coords[3],
+                            "Continent": continent,
                             "Place": feature['properties']['place'],                            
                             "Date": str(calculateTime(timeKey))[0:10],
                             "Time": str(calculateTime(timeKey))[11:19],
